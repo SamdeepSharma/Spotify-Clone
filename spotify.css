@@ -1,0 +1,275 @@
+* {
+     margin: 0px;
+     padding: 0px;
+}
+
+.main {
+     font-family: 'Poppins', 'Roboto';
+     background-color: black;
+     position: absolute;
+     top: 0;
+     height: 100vh;
+     width: 100vw;
+     color: white;
+     display: flex;
+     gap: 1.9vw;
+}
+
+.left-side {
+     width: 21vw;
+}
+
+.container1 {
+     margin: 1vh 0.6vw;
+     padding: 10px;
+     height: 19vh;
+     width: 100%;
+     background-color: #121212;
+     border-radius: 10px;
+}
+
+.logo {
+     height: 25px;
+     width: auto;
+}
+
+.img {
+     height: 25px;
+     width: auto;
+}
+
+.container1 li {
+     list-style: none;
+     padding: 8px 0px;
+     display: flex;
+     align-items: center;
+     gap: 20px;
+}
+
+.container1 li span {
+     color: rgba(255, 255, 255, 0.6);
+     font-size: 17px;
+     font-weight: 600;
+}
+
+.ele1 {
+     margin: 5px;
+     padding: 2px;
+}
+
+.top li {
+     list-style: none;
+}
+
+.top li span {
+     color: rgba(255, 255, 255, 0.6);
+     font-size: 17px;
+     font-weight: 600;
+}
+
+.top li {
+     list-style: none;
+     display: flex;
+     align-items: center;
+     gap: 20px;
+}
+
+.container2 {
+     margin: 1vh 0.6vw;
+     padding: 10px;
+     height: 71.1vh;
+     width: 100%;
+     background-color: #121212;
+     border-radius: 10px;
+}
+
+.ele2 {
+     margin: 5px;
+     padding: 2px;
+}
+
+.top {
+     min-height: 5%;
+}
+
+.mid {
+     min-height: 80%;
+}
+
+.bottom {
+     min-height: 15%;
+}
+
+.footers {
+     display: flex;
+     gap: 2px 15px;
+     flex-wrap: wrap;
+}
+
+.footers a {
+     font-size: 11px;
+     text-decoration: none;
+     color: grey;
+}
+
+.right-side {
+     width: 76vw;
+}
+
+.container3 {
+     margin: 1vh 0.6vw;
+     height: 96.5vh;
+     width: 100%;
+     background-color: #121212;
+     border-radius: 10px;
+     overflow: hidden;
+}
+
+.head {
+     height: 9.5%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.body {
+     height: 91.5%;
+     background: linear-gradient(0deg, rgba(18, 18, 18, 1) 0%, rgba(18, 18, 18, 1) 70%, rgb(34, 32, 32) 100%);
+     padding: 10px 25px;
+     overflow-y: scroll;
+}
+
+.arrows {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+     margin: 15px 25px;
+}
+
+.arr {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 35px;
+     width: 35px;
+     background-color: black;
+     border-radius: 50px;
+}
+
+.arr img {
+     height: 16px;
+     width: auto;
+}
+
+.buttons{
+     display: flex;
+     gap: 7px;
+     margin: 15px 25px;
+}
+
+.btn{
+     background: transparent;
+     color: rgba(255, 255, 255, 0.6);
+     font-weight: 600;
+     font-size: 15px;
+     border: none;
+     width: 110px;
+     height: 50px;
+     cursor:pointer;
+     transition: all 0.1s 0s ease-out;
+}
+
+.signup button:hover{
+     color: white;
+}
+
+.btn:hover{
+     font-size: 17px;
+}
+
+.login:hover{
+     padding: 2px;
+     margin: 0px;
+}
+
+.login{
+     background-color: white;
+     border-radius: 40px;
+     margin: 2px;
+}
+
+.login button{
+     color: black;
+}
+
+.heading{
+     font-size: 15px;
+}
+
+.card{
+     background-color: #181818;
+     width: 200px;
+     height: 253px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border-radius: 10px;
+     gap: 8px;
+     padding: 15px 0px;
+}
+
+.image img{
+     height: 171px;
+     width: 171px;
+     border-radius: 10px;
+}
+
+.description{
+     width:171px;
+}
+
+.description p{
+     font-size: 13px;
+     font-weight: 500;
+     color: rgba(255, 255, 255, 0.6);
+     margin-top: 4px;
+}
+
+.description h6{
+     font-size: 16px;
+     font-weight: 600;
+}
+
+.playlists{
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+}
+
+.cards{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 25px;
+     margin-bottom: 100px;
+}
+
+::-webkit-scrollbar {
+     width: 15px;
+   }
+   
+   ::-webkit-scrollbar-thumb {
+     background-color: #343434;
+     opacity: 0; /* Initially hidden */
+   }
+   
+   :hover::-webkit-scrollbar-thumb {
+     opacity: 0.5; /* Show on hover */
+   }
+   
+   :hover::-webkit-scrollbar-thumb:hover {
+     background-color: #ffffff6f;
+   }
+   
+   ::-webkit-scrollbar-track {
+     background-color: #121212;
+   }

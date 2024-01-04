@@ -1,0 +1,11 @@
+.invert {
+     filter: invert(0.6);
+}
+
+.border{
+     border: 2px solid cyan;
+}
+
+.a {
+     filter: invert(1);
+}
